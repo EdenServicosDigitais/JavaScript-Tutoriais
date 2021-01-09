@@ -1,0 +1,43 @@
+
+
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    margin: 0;
+    padding: 25px;
+    list-style: none;
+    width: 60%;
+    border-radius: 5px;
+}
+
+li{
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+
+.header{
+    text-align: center;
+}
+
+.header h2{
+    margin-top: 40px;
+}
